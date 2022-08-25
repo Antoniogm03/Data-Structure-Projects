@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="p05_solver_letras"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="partida">
+				<Option output="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/partida" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 partida"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="partida/fast">
+				<Option output="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/partida" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 partida/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="partida_letras">
+				<Option output="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/partida_letras" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 partida_letras"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="partida_letras/fast">
+				<Option output="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/partida_letras" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 partida_letras/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc_doxygen">
+				<Option working_dir="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 doc_doxygen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/src/dictionary.cpp">
+			<Option target="partida"/>
+			<Option target="partida_letras"/>
+		</Unit>
+		<Unit filename="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/src/letters_bag.cpp">
+			<Option target="partida"/>
+			<Option target="partida_letras"/>
+		</Unit>
+		<Unit filename="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/src/letters_set.cpp">
+			<Option target="partida"/>
+			<Option target="partida_letras"/>
+		</Unit>
+		<Unit filename="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/src/partida.cpp">
+			<Option target="partida"/>
+		</Unit>
+		<Unit filename="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/src/partida_letras.cpp">
+			<Option target="partida_letras"/>
+		</Unit>
+		<Unit filename="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/src/solver.cpp">
+			<Option target="partida"/>
+			<Option target="partida_letras"/>
+		</Unit>
+		<Unit filename="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/Doxyfile.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

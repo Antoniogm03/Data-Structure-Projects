@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../estudiante/include/bag.h
+vector
+-
+cstdlib
+-
+ctime
+-
+
+../estudiante/include/letters_bag.h
+bag.h
+../estudiante/include/bag.h
+letters_set.h
+../estudiante/include/letters_set.h
+vector
+-
+
+../estudiante/include/letters_set.h
+map
+-
+iostream
+-
+string
+-
+
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/letters_bag.cpp
+letters_bag.h
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/letters_bag.h
+
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/letters_set.cpp
+letters_set.h
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/letters_set.h
+map
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/letters_set.dir/estudiante/src/letters_set.cpp.o -o letters_set 

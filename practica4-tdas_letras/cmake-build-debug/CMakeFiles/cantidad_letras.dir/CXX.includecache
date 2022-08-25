@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../estudiante/include/dictionary.h
+string
+-
+set
+-
+vector
+-
+
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/dictionary.cpp
+dictionary.h
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/dictionary.h
+

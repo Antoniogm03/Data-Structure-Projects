@@ -1,0 +1,29 @@
+/*! \mainpage Título de la página principal
+
+# Introducción
+
+En esta práctica trabajaremos con las pilas y colas de la STL, para ello en el primer ejecutable "maxstack", implementaremos o simularemos el funcionamiento de una pila a partir de una cola de la STL, en segundo lugar en el ejecutable "maxqueue", implementaremos o simularemos el funcionamiento de una cola, en este caso, mediante una pila de la STL.
+
+@image html introd.jpg
+
+# Ejecutables
+
+## MaxStack
+
+Pila basada en una cola de la STL.
+
+@param <elementos> Elementos que insertar en la pila.
+@param <puntos> Puntos para sacar elementos de la pila.
+
+## MaxQueue
+
+Cola basada en una pila de la STL.
+
+@param <elementos> Elementos que insertar en la cola.
+@param <puntos> Puntos para sacar elementos de la cola.
+
+## Anotación:
+
+Nosotros habríamos creado otro ejecutable con element, ya que con esto nos ahorraríamos repetir el código de dicho struct, así como de su respectivo operator<<.
+
+*/

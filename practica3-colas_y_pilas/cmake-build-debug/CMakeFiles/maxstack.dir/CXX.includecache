@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../estudiante/include/maxstack.h
+queue
+-
+
+/home/antonio/Escritorio/practica3-colas_y_pilas/estudiante/src/maxstack.cpp
+iostream
+-
+queue
+-
+maxstack.h
+/home/antonio/Escritorio/practica3-colas_y_pilas/estudiante/src/maxstack.h
+

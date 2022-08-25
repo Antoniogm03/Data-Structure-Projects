@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../estudiante/include/bag.h
+vector
+-
+cstdlib
+-
+ctime
+-
+
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/bolsa.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+string
+-
+bag.h
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/bag.h
+

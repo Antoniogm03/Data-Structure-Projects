@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../estudiante/include/letters_set.h
+map
+-
+iostream
+-
+string
+-
+
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/conjunto_letras.cpp
+letters_set.h
+-
+iostream
+-
+fstream
+-
+
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/letters_set.cpp
+letters_set.h
+/home/antonio/Escritorio/practica4-tdas_letras/estudiante/src/letters_set.h
+map
+-
+

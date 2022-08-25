@@ -1,0 +1,61 @@
+/*! \mainpage Título de la página principal
+
+# Introducción
+
+En esta práctica implementaremos Solver, que nos permitirá resolver el juego con las mejores soluciones en base a unas letras que obtendremos de la bolsa de letras y cuyo número será elegible por el usuario.
+
+@image html dados.jpeg
+
+# Ejecutables
+
+## partida_letras:
+
+Este programa generará un vector de letras o carácteres a partir de la bolsa que creamos con el LettersSet que pasamos como parámetro.
+
+En segundo lugar miramos que tipo de partida se ha elegido L (Por longitud) o P (Por puntuación) y en base al tamaño del vector de carácteres generado, resolvemos el juego con las mejores soluciones posibles en base al diccionario, que también hemos pasado como parámetro con anterioridad.
+
+> __partida_letras__  \<fichero_letras\> \<fichero_diccionario\> \<tipo_partida (L|P)\> \<n_letras\>
+@param "<fichero_letras>" Fichero que contiene el LettersSet.
+@param <fichero_diccionario> Fichero que contiene el diccionario.
+@param <tipo_partida> Según si es L (Por longitud) o P (Por puntuación), el juego se desarrollará de una forma u otra.
+@param <n_letras> Número de carácteres a extraer de la bolsa de letras y con lo que se desarrollará la partida.
+
+Un ejemplo de ejecución para una partida por longitud sería:
+
+@image html PorLongitud.png
+
+Un ejemplo de ejecución para una partida por puntuación sería:
+
+@image html PorPuntuacion.png
+
+## partida:
+
+Este programa hemos decidido hacerlo por cuenta propia, pues nos pareció interesante la posibilidad de con todas las clases implementadas hasta el momento en la práctica, crear un programa que permitiera jugar a varios usuarios.
+
+> __partida__  \<fichero_letras\> \<fichero_diccionario\> \<tipo_partida (L|P)\> \<n_letras\> \<num_jugadores\>
+@param "<fichero_letras>" Fichero que contiene el LettersSet.
+@param <fichero_diccionario> Fichero que contiene el diccionario.
+@param <tipo_partida> Según si es L (Por longitud) o P (Por puntuación), el juego se desarrollará de una forma u otra.
+@param <n_letras> Número de carácteres a extraer de la bolsa de letras y con lo que se desarrollará la partida.
+@param <num_jugadores> Número de jugadores que van a participar en la partida.
+
+La idea del programa es pidiendo por pantalla a cada jugador una palabra que deberá formar a partir de las letras disponibles de la partida, e irá comprobando si la palabra introducida es válida en base a las letras disponibles y su existencia en el diccionario.
+Cuando todos los jugadores hayan introducido su palabra y todas sean válidas, el programa calculará los puntos de cada jugador y mostrará por pantalla al ganador.
+
+Para implementar esto tuvimos que añadir al CMakeList.txt las siguientes líneas:
+<pre>if (EXISTS ${CMAKE_SOURCE_DIR}/${BASE_FOLDER}/src/partida.cpp)
+    add_executable(partida
+            ${BASE_FOLDER}/src/partida.cpp
+            ${BASE_FOLDER}/src/letters_set.cpp
+            ${BASE_FOLDER}/src/letters_bag.cpp
+            ${BASE_FOLDER}/src/solver.cpp
+            ${BASE_FOLDER}/src/dictionary.cpp estudiante/src/partida.cpp estudiante/src/partida.cpp)
+endif()<code>
+
+Un ejemplo de partida con dos usuarios sería el siguiente:
+
+@image html Partida.png
+
+Obviamente este programa podría mejorarse bastante, pero decidimos hacer una prueba rápida para comprobar que con lo desarrollado hasta el momento en la práctica se podía desarollar el mismo.
+Pues por ejemplo no hemos tenido en cuenta la posibilidad de que haya un empate, de forma que si hay dos jugadores y hacen una palabra con la misma puntuación o longitud, ganará el primer jugador siempre.
+*/

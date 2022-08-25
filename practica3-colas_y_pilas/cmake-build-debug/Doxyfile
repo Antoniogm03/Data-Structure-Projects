@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 2. Pilas y Colas"
+OUTPUT_DIRECTORY       = /home/antonio/Escritorio/practica3-colas_y_pilas/cmake-build-debug/doc_doxygen/
+INPUT                  = /home/antonio/Escritorio/practica3-colas_y_pilas/estudiante/include /home/antonio/Escritorio/practica3-colas_y_pilas/estudiante/src /home/antonio/Escritorio/practica3-colas_y_pilas/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/antonio/Escritorio/practica3-colas_y_pilas/estudiante/doc
+EXTRACT_PRIVATE	       = NO

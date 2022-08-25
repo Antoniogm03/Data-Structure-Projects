@@ -1,0 +1,5 @@
+/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/CMakeFiles/partida.dir
+/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/CMakeFiles/partida_letras.dir
+/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/CMakeFiles/doc_doxygen.dir
+/home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,74 @@
+/*! \mainpage Título de la página principal
+
+# Introducción
+
+En esta práctica realizaremo los TDA necesarios para crear el juego de las cifras y las letras, para ello utilizaremos diferentes contenedores de la STL, como lo serán map, set, vector, etc.
+
+@image html Jordi.jpg
+
+# Ejecutables
+
+## conjunto_palabras:
+
+Para probar el funcionamiento de nuestro TDA LettersSet.
+
+> __conjunto_palabras__ \<FicheroEntrada\> \<palabra\>
+@param "<FicheroEntrada>" Ruta al archivo con información sobre el conjunto de letras.
+@param <palabra> Palabra de la que calcular la puntuación.
+
+Para la implementación de la clase LettersSet utilizamos un map, cuyo funcionamiento podemos deducir de la siguiente imagen:
+
+@image html Map.png
+
+
+## bolsa:
+
+Para probar el funcionamiento de nuestro TDA Bag.
+
+> __conjunto_palabras__ \<elemento\> \<lista\>
+@param "<elemento>" Será una letra C o un entero I.
+@param <lista> Lista de caracteres o enteros.
+
+Para la implementación de la clase Bag utilizamos un vector, cuyo funcionamiento podemos deducir de la siguiente imagen:
+
+@image html Vector.jpg
+
+
+## bolsa_letras:
+
+Para probar el funcionamiento de nuestro TDA LettersBag.
+
+> __conjunto_palabras__ \<FicheroEntrada\>
+@param "<FicheroEntrada>" Ruta al archivo con información sobre el conjunto de letras.
+
+Para ello:
+- Creamos un conjunto de letras (LettersSet), y lo rellenamos a partir de la información leída del archivo que pasamos como parámetro.
+- Creamos una bolsa de letras (LettersBag), y la rellenamos con la información del LettersSet anterior (usamos constructor por parámetros).
+- Extraemos todas las letras de la LettersBag (aleatoriamente) y las imprimimos por pantalla.
+
+@image html bolsadeLETRAS.jpg
+
+## palabras_longitud:
+
+Para probar el funcionamiento de nuestro TDA Dictionary.
+
+> __conjunto_palabras__ \<FicheroEntrada\> \<Número\>
+@param "<FicheroEntrada>" Ruta al archivo a un fichero con las palabras de un diccionario.
+@param <Número> Entero con la longitud de las palabras que buscamos.
+
+- Construimos un Dictionary con el fichero de las palabras, extrae de dicho diccionario las palabras de la longitud que buscamos y las imprime por pantalla.
+
+
+## cantidad_letras:
+
+Para probar el funcionamiento de nuestro TDA Dictionary.
+
+> __conjunto_palabras__ \<FicheroDictionary\> \<FicheroLetras\>
+@param "<FicheroEntrada>" Ruta al archivo a un fichero con las palabras de un diccionario.
+@param <FicheroLetras> Ruta al archivo a un fichero con las letras.
+
+- Construimos un Dictionary con el fichero de palabras, un LettersSet con el fichero de letras, e imprime por pantalla, para cada letra en el LettersSet, el número de ocurrencias de la letra en el diccionario y su frecuencia relativa.
+
+Para la implementación de la clase Dictionary utilizamos un set, cuyo funcionamiento podemos deducir de la siguiente imagen:
+@image html set.png
+*/

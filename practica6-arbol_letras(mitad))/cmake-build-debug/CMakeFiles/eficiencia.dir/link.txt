@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/eficiencia.dir/estudiante/src/eficiencia.cpp.o CMakeFiles/eficiencia.dir/estudiante/src/letters_set.cpp.o CMakeFiles/eficiencia.dir/estudiante/src/letters_bag.cpp.o CMakeFiles/eficiencia.dir/estudiante/src/solver.cpp.o CMakeFiles/eficiencia.dir/estudiante/src/dictionary.cpp.o -o eficiencia 

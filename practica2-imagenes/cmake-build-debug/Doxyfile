@@ -1,0 +1,5 @@
+PROJECT_NAME           = "Práctica 1. Imágenes"
+OUTPUT_DIRECTORY       = /home/antonio/Escritorio/practica2-imagenes/cmake-build-debug/doc_doxygen/
+INPUT                  = /home/antonio/Escritorio/practica2-imagenes/estudiante/include /home/antonio/Escritorio/practica2-imagenes/estudiante/src /home/antonio/Escritorio/practica2-imagenes/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/antonio/Escritorio/practica2-imagenes/estudiante/doc

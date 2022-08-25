@@ -1,0 +1,140 @@
+/*! \mainpage Título de la página principal
+
+@image html doxyque.jpeg
+
+# Información sobre Doxygen
+Doxygen admite el uso de la [sintaxis de Markdown (Consulta aquí los comandos básicos)](https://www.markdownguide.org/basic-syntax).
+
+Así como el uso de  <a href="https://htmlcheatsheet.com/">sintaxis <strong>HTML</strong></a>. Esto es especialmente útil
+para aquellos aspectos que Markdown no permite modificar, como el <span  style="color:red">color</span>. Aunque es buena idea evitarlo en la medida de lo posible, por dos
+motivos:
+
+1. <span style="font-size:1.1em">Hace el código <strong>poco</strong> <span style="  background-image: linear-gradient(to left, #4285f4, #34a853, #fbbc05, #ea4335); -webkit-background-clip: text; color: transparent;"> <strong> LEGIBLE </strong> </span></span>
+2. La idea detrás de Markdown es separar _aspecto_ y _contenido_. Y es una __gran idea__.
+
+La forma más correcta de modificar el aspecto debería ser mediante un documento ``.css`` configurado en el archivo ``Doxyfile.in``.
+Si te interesa, puedes echarle un vistazo a la [documentación](https://www.doxygen.nl/manual/customize.html) o a
+temas customizados como [este](https://jothepro.github.io/doxygen-awesome-css/). Aunque el tema por defecto nos parece
+perfecto, _CLÁSICO_. Así puedes centrarte en el contenido.
+
+Por último, lo hemos visto en clase y hay suficientes ejemplos en el código fuente proporcionado, pero puedes consultar la
+mayor parte de la sintaxis de Doxygen para comentar código en su
+[documentación](https://www.doxygen.nl/manual/docblocks.html).
+
+# Ejecutables
+
+@image html vacas.jpg "Imagen original"
+
+## Negativo:
+
+Calcula el negativo de una imagen
+
+> __negativo__ \<FichImagenOriginal\> \<FichImagenDestino\>
+@param "<FichImagenOriginal>" Imagen PGM a la que se va a calcular
+@param <FichImagenDestino> Imagen PGM resultado de calcular el negativo
+@image html invert.png "Imagen en negativo"
+
+
+## Subimagen:
+
+Genera una subimagen.
+
+> __subimagen__ \<FichImagenOriginal\> \<FichImagenDestino\> \<fila\> \<col\> \<filas_sub\> \<cols_sub\>
+@param "<FichImagenOriginal>" Imagen PGM de la que se va a obtener la subimagen.
+@param <FichImagenDestino> Subimagen obtenida.
+@param <fila> Fila inicial para recortar.
+@param <col> Columna inicial para recortar.
+@param <filas_sub> Número de filas.
+@param <cols_sub> Número de columnas.
+@image html subimagen_pub.jpg "Subimagen"
+
+
+## Zoom:
+
+Aplica un zoom x2 sobre una porción de la imagen.
+
+> __Zoom__ \<FichImagenOriginal\> \<FichImagenDestino\> \<fila\> \<col\> \<filas_sub\> \<cols_sub\>
+@param "<FichImagenOriginal>" Imagen PGM de la que se va a obtener la subimagen.
+@param <FichImagenDestino> Subimagen obtenida.
+@param <fila> Fila inicial para extraer.
+@param <col> Columna inicial para extraer.
+@param <lado> Tamaño del lado del cuadrado.
+@image html zoom.jpg "Zoom(x2)"
+
+
+## Icono:
+
+Genera un icono como reducción de una imagen.
+
+> __Icono__ \<FichImagenOriginal\> \<FichImagenDestino\> \<factor\>
+@param "<FichImagenOriginal>" Imagen PGM de la que se va a obtener el icono.
+@param <FichImagenDestino> Icono obtenido.
+@param <factor> Factor de reducción de la imagen original con respecto a un icono.
+@image html icono.jpg "Icono con factor 2"
+
+## Contraste:
+
+Modifica el contraste de una Imagen.
+
+> __Contraste__ \<FichImagenOriginal\> \<FichImagenDestino\> \<e1\> \<e2\> \<s1\> \<s2\>
+@param "<FichImagenOriginal>" Imagen PGM de la que se va a obtener la subimagen.
+@param <FichImagenDestino> Subimagen obtenida.
+@param <e1> Umbral inferior de la imagen de entrada.
+@param <e2> Umbral superior de la imagen de entrada.
+@param <s1> Umbral inferior de la imagen de salida.
+@param <s2> Umbral superior de la imagen de salida.
+@image html contraste.jpg "Contraste"
+
+## Barajar:
+
+Baraja pseudoaleatoriamente las filas de una imagen.
+
+> __Barajar__ \<FichImagenOriginal\> \<FichImagenDestino\>
+@param "<FichImagenOriginal>" Imagen PGM que se va a barajar.
+@param <FichImagenDestino> Imagen PGM resultado del barajado.
+@image html barajar.jpg "Imagen barajada"
+
+## Eficiencia:
+
+Genera un fichero con los tiempos de ejecución del método Shuffle con imágenes de ndatos * ndatos.
+
+> __Barajar__ \<FichImagenDestino\>
+@param <FichImagenDestino> Fichero que recibe los datos de eficiencia.
+*/
+
+/*! \page - Analisis de eficiencia.
+
+# Análisis de eficiencia del método Shuffle
+
+A continuación veremos cómo según el tipo de representación que utilizamos para el TDA, la eficiencia del código se ve alterada para este método.
+
+Esto lo haremos mediante el programa eficiencia que hemos creado, el cúal ejecutará la función shuffle un número determinado de veces con una cantidad de datos variable.
+
+En cada ejecución calculará el tiempo que tarda el programa en ejecutarse e irá guardando en un archivo de texto, el número de datos utilizados junto al tiempo resultante de cada ejecución.
+
+Los resultados obtenidos en nuestro fichero de texto los utilizaremos en gnuplot, herramienta con la cúal obtendremos una gráfica que variará según la eficiencia de nuestro código.
+
+Además buscaremos aproximadamente mediante esta misma herramienta cuál es la función que más se acerca a la función resultante de la eficiencia de nuestra función en cada caso.
+
+Diferenciaremos por tanto entre dos casos:
+
+## Sin cambiar el tipo de representación:
+
+A simple vista, conociendo la notación O grande, podemos concluir que el código tendrá una eficiencia de orden cuadrático O(n²), pues vemos dos bucles for anidados.
+
+A pesar de saber esto, lo comprobaremos empíricamente mediante el uso del ejecutable "eficiencia", que nos permitirá mediante gnuplot, comprobar que estamos en lo cierto.
+@image html eficiencia1.png
+
+## Tras cambiar el tipo de representación:
+
+En este caso, atendiendo a la notación O grande, estamos ante un estudio teórico de la eficiencia con una eficiencia de orden lineal, al tener tan solo un bucle for que recorre toda la estructura.
+
+Con el análisis práctico, mediante el ejecutable "eficiencia", obtenemos tras ingresar los datos en gnuplot:
+@image html eficiencia2.png
+
+En el caso del estudio de esta eficiencia, hemos tenido que hacer la media entre los tiempos de ejecutar k veces el método Shuffle con ndatos, pues si solo ejecutabamos una vez con cada número de datos diferentes, los tiempos oscilaban mucho y era complicado observar el carácter lineal de la función de eficiencia resultante.
+
+## Conclusión:
+En conclusión, podemos asumir que tras el cambio de representación el código será más eficiente, al presentar una eficiencia lineal de orden O(n), frente a la eficiencia cuadrática de orden O(n²) obtenida con la representación incial.
+
+*/

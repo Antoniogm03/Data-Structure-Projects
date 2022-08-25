@@ -1,0 +1,8 @@
+/home/antonio/Escritorio/practica4-tdas_letras/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/antonio/Escritorio/practica4-tdas_letras/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/antonio/Escritorio/practica4-tdas_letras/cmake-build-debug/CMakeFiles/doc_doxygen.dir
+/home/antonio/Escritorio/practica4-tdas_letras/cmake-build-debug/CMakeFiles/palabras_longitud.dir
+/home/antonio/Escritorio/practica4-tdas_letras/cmake-build-debug/CMakeFiles/conjunto_letras.dir
+/home/antonio/Escritorio/practica4-tdas_letras/cmake-build-debug/CMakeFiles/bolsa.dir
+/home/antonio/Escritorio/practica4-tdas_letras/cmake-build-debug/CMakeFiles/cantidad_letras.dir
+/home/antonio/Escritorio/practica4-tdas_letras/cmake-build-debug/CMakeFiles/bolsa_letras.dir

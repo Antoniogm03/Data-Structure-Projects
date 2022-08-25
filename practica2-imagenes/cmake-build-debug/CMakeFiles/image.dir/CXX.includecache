@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../estudiante/include/image.h
+cstdlib
+-
+imageIO.h
+../estudiante/include/imageIO.h
+
+../estudiante/include/imageIO.h
+
+/home/antonio/Escritorio/practica2-imagenes/estudiante/src/image.cpp
+cstring
+-
+cassert
+-
+iostream
+-
+cmath
+-
+image.h
+-
+imageIO.h
+-
+
+/home/antonio/Escritorio/practica2-imagenes/estudiante/src/imageop.cpp
+iostream
+-
+cmath
+-
+image.h
+-
+cassert
+-
+

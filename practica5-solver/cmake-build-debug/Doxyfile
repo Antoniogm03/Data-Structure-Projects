@@ -1,0 +1,6 @@
+PROJECT_NAME           = "Práctica 4. Juego de las Letras - Solver"
+OUTPUT_DIRECTORY       = /home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/cmake-build-debug/doc_doxygen/
+INPUT                  = /home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/include /home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/src /home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/doc
+GENERATE_LATEX         = NO
+IMAGE_PATH             = /home/antonio/Documentos/Facultad/Segundo/Informática/E.D/Practicas_ED/practica5-solver/estudiante/doc
+EXTRACT_PRIVATE	       = NO
