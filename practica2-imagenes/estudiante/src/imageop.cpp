@@ -6,5 +6,3 @@
 #include <iostream>
 #include <cmath>
 #include <image.h>
-
-#include <cassert>
